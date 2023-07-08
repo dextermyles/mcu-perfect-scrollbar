@@ -1,6 +1,6 @@
 import { ChangeDetectorRef, DoCheck, EventEmitter, NgZone, OnDestroy, OnInit } from '@angular/core';
 import { PerfectScrollbarDirective } from './perfect-scrollbar.directive';
-import { PerfectScrollbarConfigInterface } from './perfect-scrollbar';
+import { PerfectScrollbarConfigInterface } from './perfect-scrollbar.interfaces';
 import * as i0 from "@angular/core";
 export declare class PerfectScrollbarComponent implements OnInit, OnDestroy, DoCheck {
     private zone;
